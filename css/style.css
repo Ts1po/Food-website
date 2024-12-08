@@ -272,6 +272,83 @@
   text-align: center;
 }
 
+/* about section css */
+.about {
+  width: 1600px;
+  height: 856px;
+  background-color: #F9F9F7;
+}
+
+.about-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* left side of about */
+
+/* right side of about */
+.right-side-about {
+  width: 557px;
+  height: 457px;
+  gap:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+/* right side text */
+.right-side-text {
+  width: 557px;
+  height: 353px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-right-h2 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 60.5px;
+  color: #2C2F24;
+  width: 557px;
+  height: 121px;
+}
+
+.about-right-p1 {
+  width: 557px;
+  height: 112px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #2C2F24;
+}
+
+.about-right-p2 {
+  width: 557px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414536;
+}
+
+/* about button */
+.about-right-but {
+  width: 179px;
+  height: 64px;
+  border-radius: 118px;
+  border: 1.5px solid #2C2F24;
+  background-color: #fff;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  align-self: flex-start;
+}
+
 /* footer */
 
 /* footer logo */
