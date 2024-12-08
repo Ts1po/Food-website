@@ -180,6 +180,9 @@
   width: 95%;
   max-height: 500px;
   height: auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .menu-box-hed {
@@ -206,10 +209,67 @@
 .menu-box-container {
   display: flex;
   flex-direction: row;
-  margin-top: 64px;
+  justify-content: center;
+  align-items: center;
+  margin: 64px 0px 120px 300px;
   max-width: 1296px;
   height: 375px;
   gap: 24px;
+}
+
+/* cards css */
+.menu-item {
+  width: 306px;
+  height: 375px;
+  border: Mixed solid #dbdfd0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+}
+
+.menu-bg {
+  width: 238px;
+  height: 303px;
+  gap: 30px;
+  opacity: 0px;
+}
+
+.menu-icon-info-container {
+  width: 238px;
+  height: 117px;
+  gap: 15px;
+  opacity: 0px;
+  margin-top: 30px;
+}
+
+.menu-h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #2c2f24;
+}
+
+.menu-p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #414536;
+  margin-top: 15px;
+}
+
+.icon-explore {
+  margin-top: 30px;
+  gap: 10px;
+  border-radius: 12px;
+  opacity: 0px;
+  color: #ad343e;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fff;
+  text-align: center;
 }
 
 /* footer */
