@@ -737,6 +737,175 @@
   color: #414536;
 }
 
+/* blog section css */
+.blog {
+  width: 1600px;
+  height: 1117px;
+  background-color: #F9F9F7;
+}
+
+.blog-content {
+  width: 1296px;
+  height: 860px;
+  gap: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* title of blog content */
+.blog-title {
+  width: 1296px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-title-h2 {
+  width: 485px;
+  height: 61px;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  color: #2C2F24;
+}
+
+.blog-title-button {
+  width: 191px;
+  height: 64px;
+  border-radius: 118px;
+  gap: 10px;
+  background-color: #AD343E;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* blog cards css */
+.blog-cards-container {
+  display: flex;
+  flex-direction: row;
+  width: 1296px;
+  height: 732px;
+  border: 1px solid #F9F9F7;
+}
+
+/* left side of blog */
+.blog-left-side {
+  width: 632px;
+  height: 732px;
+  border: 1px solid #F9F9F7;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2.98px 59.57px 0px #00000014;
+}
+
+.blog-card-big{ 
+  width: 636px;
+  height: 679px;
+}
+
+.burger-icon {
+  width: 632px;
+  height: 456px;
+  gap: 0px;
+  border-radius: 12px 12px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 25px;
+}
+
+/* text in left side in blog*/
+.blog-text {
+  width: 568px;
+  height: 178px;
+  gap: 15px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 35px;
+  border-radius: 12px;
+}
+
+.blog-text-calendar {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737865;
+  margin-bottom: 15px;
+}
+
+.blog-text-hed {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2C2F24;
+}
+
+.blog-text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414536;
+}
+
+/* right side of blog */
+.blog-right-side {
+  width: 632px;
+  height: 732px;
+  border: 1px solid #F9F9F7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-left: 24px;
+}
+
+.blog-card-small {
+  width: 306px;
+  height: 354px;
+  border: 1px solid #F9F9F7;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2.98px 59.57px 0px #00000014;
+  border-radius: 12px;
+  flex: 1 1 calc(50% - 20px);
+}
+
+.blog-icons {
+  width: 306px;
+  height: 200px;
+  gap: 0px;
+  border-radius: 12px 12px 0px 0px;
+  opacity: 0px;
+}
+
+.blog-card-text {
+  width: 256px;
+  height: 110px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.blog-small-card-text-calendar {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737865;
+}
+
+.blog-small-card-text-hed {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2C2F24;
+}
 /* footer */
 
 /* footer logo */
