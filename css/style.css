@@ -994,6 +994,67 @@ footer {
   margin-bottom: 40px;
 }
 
+.footer-ul-li-a {
+  font-size: 16px;
+  color: #DBDFD0;
+  gap: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-top-col-2-2 {
+  width: 149px;
+  height: 352px;
+  gap: 40px;
+}
+
+.footer-top-col-2-2 ul li, .footer-top-col-2-1 ul li {
+  margin: 20px 0;
+}
+
+
+.footer-top-col-2-2-hed {
+  width: 96px;
+  height: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* column 3 in footer css */
+
+.footer-top-col-3 {
+  width: 403px;
+  height:419px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col-3-p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer-col-3-imgs {
+  border-radius: 12px;
+  gap: 15px;
+}
+
+#fries-img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#mexican-img {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 /* footer bottom part */
 .footer-bottom {
   width: 1296px;
