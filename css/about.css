@@ -1,0 +1,19 @@
+/* header */
+.about {
+  background-color: #dbdfd0;
+  padding: 4px 16px;
+  gap: 10px;
+  border-radius: 34px;
+}
+
+.home {
+  background: none;
+}
+
+.top-header {
+    background-color: #474747;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+  }
