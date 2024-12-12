@@ -140,7 +140,6 @@
 .mask-ph-but-1 {
   width: 163px;
   height: 64px;
-  /* padding: 20px 32px 20px 32px; */
   gap: 10px;
   border-radius: 118px;
   opacity: 0px;
@@ -154,7 +153,6 @@
 .mask-ph-but-2 {
   width: 170px;
   height: 64px;
-  /* padding: 20px 32px 20px 32px; */
   gap: 10px;
   border-radius: 118px;
   border: 1.5px 0px 0px 0px;
@@ -180,9 +178,6 @@
   width: 95%;
   max-height: 500px;
   height: auto;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .menu-box-hed {
@@ -302,7 +297,6 @@
   position: relative;
   display: flex;
   width: fit-content;
-  /* margin-top: 40px; */
 }
 
 /* about card css */
@@ -433,7 +427,6 @@
   gap: 391px;
   width: 675px;
   height: 121px;
-  /* background-color: #ad343e; */
   font-weight: 500;
   font-size: 55px;
   line-height: 65px;
@@ -444,7 +437,6 @@
 .services-container {
   display: flex;
   flex-direction: row;
-  /* background-color: #414536; */
   width: 1296px;
   height: 443px;
   gap: 24px;

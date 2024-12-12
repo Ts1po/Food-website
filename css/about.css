@@ -11,9 +11,274 @@
 }
 
 .top-header {
-    background-color: #474747;
-    width: 100%;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-  }
+  background-color: #474747;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+}
+header {
+  width: 1600px;
+  height: 950px;
+  background-color: #F9F9F7;
+}
+
+/* hero div css */
+.hero {
+  width: 1600px;
+  margin-top: 85px;
+}
+
+.hero-content {
+  width: 1296px;
+  height: 616px;
+  gap: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 120px;
+}
+
+/* left side of about */
+
+/* about img */
+.about-img {
+  width: 758px;
+  height: 566px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.left-side-about {
+  position: relative;
+  display: flex;
+  width: fit-content;
+}
+
+/* about card css */
+.about-card {
+  position: absolute;
+  bottom: -40px;
+  left: 420px;
+  padding: 20px;
+  width: 411px;
+  height: 321px;
+  border-radius: 12px;
+  background-color: #474747;
+
+}
+
+.about-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  justify-content: center;
+}
+
+.about-card-info-h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.about-car-info-inside {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.fa-solid,
+.fa-regular {
+  margin-right: 10px;
+}
+
+.inside-info {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* right side of about */
+.right-side-about {
+  width: 557px;
+  height: 457px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+/* right side text */
+.right-side-text {
+  width: 557px;
+  height: 353px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-right-h2 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 60.5px;
+  color: #2c2f24;
+  width: 557px;
+  height: 121px;
+}
+
+.about-right-p1 {
+  width: 557px;
+  height: 112px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #2c2f24;
+}
+
+.about-right-p2 {
+  width: 557px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414536;
+}
+
+/* testimonial section css */
+.testimonial {
+  width: 1600px;
+  height: 766px;
+}
+
+.testimonial-cont {
+  width: 1296px;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 98px;
+}
+
+.testimonial-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 626px;
+  height: 61px;
+}
+
+.testimonial-h2 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  text-align: center;
+  color: #2c2f24;
+}
+
+/* testimonial cards */
+.testimonial-cont {
+  width: 1296px;
+  height: 533px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+  margin-top: 98px;
+}
+
+.testimonial-container {
+  width: 1296px;
+  height: 408px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 100%;
+  margin-top: 64px;
+}
+
+.testimonial-inside-content {
+  width: 416px;
+  height: 408px;
+  background-color: #f9f9f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-inside-content-text {
+  width: 346px;
+  height: 194px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 45px 0 0 35px;
+}
+
+.testimonial-text-h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ad343e;
+}
+
+.testimonial-text-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #414536;
+}
+
+.testimonial-line {
+  width: 346px;
+  border: 1px solid #dbdfd0;
+  opacity: 70%;
+  margin: 32px 35px 32px 35px;
+}
+
+/* users in card in testimonial */
+.testimonial-user-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 211px;
+  height: 70px;
+  margin: 0px 0px 35px 35px;
+}
+
+.testimonial-img {
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+.testimonial-user-info {
+  width: 121px;
+  height: 51px;
+  gap: 3px;
+}
+
+.testimonial-user-p1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2c2f24;
+}
+
+.testimonial-user-p2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #414536;
+}
