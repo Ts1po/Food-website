@@ -49,8 +49,9 @@
             </div>
         </div>
     </header>
-    <!-- form section -->
-    <section class="form">
+    <!-- map and form section -->
+    <section class="map">
+        <img src="imgs/book-imgs/Map.png" alt="map png" class="map-img">
         <div class="whole-form-container">
             <!-- title of from -->
             <div class="book-title">
@@ -64,46 +65,43 @@
                     <!-- first row -->
                     <div class="first-row">
                         <!-- 1 in 1 -->
-                        <div class="form-element">
-                            <label for="date">Date</label>
+                        <div class="form-element row">
+                            <label for="date" class="row-1-label">Date</label>
                             <input type="date" id="date" class="date first-row-form" placeholder="04/01/2021">
                         </div>
                         <!-- 2 in 1 -->
                         <div class="form-element">
-                            <label for="time">Time</label>
+                            <label for="time" class="row-1-label">Time</label>
                             <input type="time" id="time" class="time first-row-form" placeholder="06:30PM">
                         </div>
                     </div>
                     <!-- second row -->
                     <div class="second-row">
                         <!-- 1 in 2 -->
-                        <div class="form-element">
-                            <label for="Name">Name</label>
-                            <input type="text" id="name" class="name second-row-form" placeholder="Enter your name">
+                        <div class="form-element row second-row-div">
+                            <label for="Name" class="row-1-label">Name</label>
+                            <input type="text" id="name" class="name first-row-form" placeholder="Enter your name">
                         </div>
                         <!-- 2 in 2 -->
-                         <div class="form-element">
-                            <label for="phone">Phone</label>
-                            <input type="number" id="phone" class="phone second-row-form" placeholder="x-xxx-xxx-xxxx">
-                         </div>
+                        <div class="form-element second-row-div">
+                            <label for="phone" class="row-1-label">Phone</label>
+                            <input type="number" id="phone" class="phone first-row-form" placeholder="x-xxx-xxx-xxxx">
+                        </div>
                     </div>
                     <!-- third row -->
-                     <div class="third-row">
-                        <label for="total">Total Person</label>
-                        <input type="text" id="total-person" class="total-person">
-                     </div>
+                    <div class="third-row row third-row-div">
+                        <label for="total" class="row-1-label" id="third-row-label">Total Person</label>
+                        <input type="text" id="total-person" class="total-person" placeholder="1 Person">
+                    </div>
                     <!-- button -->
-                     <a href="">
+                    <a href="">
                         <button class="form-button">Book a Table</button>
-                     </a>
+                    </a>
                 </div>
             </form>
         </div>
     </section>
-    <!-- map section -->
-     <section class="map">
-        <img src="imgs/book-imgs/Map.png" alt="map png" class="map-img">
-     </section>
+
     <!-- footer -->
     <footer>
         <div class="footer-cont">
