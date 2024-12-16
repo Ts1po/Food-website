@@ -16,3 +16,99 @@
   display: flex;
   justify-content: center;
 }
+
+/* hero section */
+
+
+/* blog content */
+
+.blog-content {
+  width: 1600px;
+  height: 700px;
+  background-color: #FFFFFF;
+}
+
+.blog-details-content {
+  width: 1296px;
+  height: 553px;
+  gap: 72px;
+  margin-left: 152px;
+  margin-top: 81px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* title */
+.blog-details-title {
+  width: 100%;
+  max-width: 632px;
+  margin: 0 auto 72px;
+  gap: 24px;
+}
+
+.blog-details-h2 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 60.5px;
+  text-align: center;
+  color: #2C2F24;
+  margin: 0 auto;
+}
+
+.blog-details-p {
+  width: 100%;
+  max-width: 632px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #414536;
+  text-align: justify;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/* cards */
+
+.blog-details-card {
+  width: 1296px;
+  height: 340px;
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-details-card-rows {
+  display: flex;
+  flex-direction: column;
+  width: 306px;
+  height: 340px;
+  border: 1px solid #F9F9F7;
+}
+
+.blog-details-row-text {
+  width: 253px;
+  height: 84px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.blog-details-calendar {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #737865;
+}
+
+.blog-details-p {
+  width: 253px;
+  height: 52px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #2C2F24;
+}
